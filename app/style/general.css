@@ -1,0 +1,25 @@
+.list-surah {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 35px;
+    list-style-type: none;
+    float: left;
+    border: solid 5px #1b4e1b;
+    background-color: #195d11;
+    margin: 2rem;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.nama-surah {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    padding-right: 1rem;
+}

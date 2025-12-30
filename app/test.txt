@@ -1,0 +1,4 @@
+const object = {
+    "status": "success",
+    "code": 200,200
+}
