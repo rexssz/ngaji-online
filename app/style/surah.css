@@ -1,0 +1,21 @@
+body {
+    background-color: #0d240d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-size: 30px;
+    font-weight: 600;
+    list-style-type: none;
+    color: #fff;
+}
+
+#ayat-surah {
+    padding-right: 10px;
+    margin-bottom: 2rem;
+}

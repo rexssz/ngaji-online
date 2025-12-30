@@ -15,17 +15,10 @@ fetch(`https://equran.id/api/v2/surat/${nomorSurah}`)
             const li = document.createElement('li');
             const p = document.createElement('p');
             p.setAttribute('class', 'text');
-            p.innerHTML = `${ayat[i].nomorAyat}. ${ayat[i].teksArab} `;
-            p.style.fontSize = '35px'
-            p.style.display = 'flex'
-            p.style.justifyContent = 'right'
-            p.style.textAlign = 'right'
-            li.style.listStyleType = 'none'
+            p.innerHTML = `${ayat[i].teksArab}`;
             wadahAyat.style.paddingRight = '20px'
             
             li.append(p)
-            
-
             ul.append(li);
         }
         const namaSurah = data.data.namaLatin;
