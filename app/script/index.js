@@ -17,9 +17,9 @@ fetch('https://equran.id/api/v2/surat')
                 linkSurah.innerText = isiData[i].nama;
                 li.append(linkSurah);
                 list.append(li);
+
             }
         }
     )
     .catch(err => console.error(err));
     
-// pembuatan query parameter

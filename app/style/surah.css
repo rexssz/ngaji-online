@@ -1,8 +1,12 @@
 body {
-    background-color: #0d240d;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
 }
 
 .text {
@@ -12,10 +16,58 @@ body {
     font-size: 30px;
     font-weight: 600;
     list-style-type: none;
-    color: #fff;
+    color: #111;
+    direction: rtl;
+    text-align: right;
+    line-height: 2;
+    font-family: 'Amiri', 'Scheherazed New', serif;
+}
+
+.bismillah {
+    font-family: 'Amiri', 'Scheherazed New', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    padding: 2rem;
+    font-weight: 600;
+    direction: rtl;
+}
+
+ul {
+    padding-right: 10px;
+    margin-bottom: 4em;
+    margin-top: 1rem;
 }
 
 #ayat-surah {
-    padding-right: 10px;
-    margin-bottom: 2rem;
+    border-radius: 25px;
+    margin-top: 0;
+    -webkit-box-shadow: 0px 0px 26px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 26px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 26px 5px rgba(0, 0, 0, 0.75);
+}
+
+.container-navbar-surah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-top: solid 1px #fff;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+@media (min-width: 575px) {
+
+    .container-navbar-surah,
+    .container-fluid {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    #ayat-surah {
+        margin-right: 15rem;
+        margin-left: 15rem;
+    }
 }
