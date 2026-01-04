@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 
 li {
@@ -62,8 +63,8 @@ ul {
 
     .container-navbar-surah,
     .container-fluid {
-        padding-left: 15rem;
-        padding-right: 15rem;
+        padding-left: 13rem;
+        padding-right: 13rem;
     }
 
     #ayat-surah {
